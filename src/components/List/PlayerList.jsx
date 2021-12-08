@@ -1,17 +1,7 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom'
-import { getPlayers } from '../../services/players'
 
-export default function PlayerList() {
-    const [players, setPlayers] = useState([])
-
-    useEffect(() => {
-        async function getAllPlayers() {
-            const response = await getPlayers()
-            setPlayers(response)
-        }
-        getAllPlayers()
-    }, [])
+export default function PlayerList({players}) {
 
     return (
         <div>

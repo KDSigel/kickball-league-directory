@@ -15,7 +15,7 @@ useEffect(() => {
         setLoading(false)
     }
     getPlayerDeets()
-}, []
+}, [id]
 )
 
     return (

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { useParams } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
 import { getTeamById } from '../../services/teams'
 
 export default function TeamDetail() {
@@ -15,7 +15,7 @@ export default function TeamDetail() {
             setLoading(false)
         }
         getTeamDeets()
-    }, []
+    }, [id]
     )
 
     return (
@@ -24,7 +24,17 @@ export default function TeamDetail() {
                     : <>
                     <h2>{team.name}</h2>
                     <p>{team.city}</p>
-                    <p>{team.state}</p>
+                    <ul>
+                        {team.players.map((player) => {
+                            return (
+                            <li key={player.id}>
+                                <Link to={`/player/${player.id}`}>
+                                {player.position}: {player.name}
+                                </Link>
+                            </li>
+                            );
+                        })}
+                    </ul>
                     </>
             }
         </div>
