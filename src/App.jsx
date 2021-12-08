@@ -2,9 +2,9 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  NavLink,
 } from 'react-router-dom';
 import './App.css';
+import Navigation from './components/List/Navigation';
 import Home from './views/Home/Home';
 import PlayerDetail from './views/Players/PlayerDetail';
 import Players from './views/Players/Players';
@@ -15,6 +15,7 @@ function App() {
   return (
     <div className="App">
 <Router>
+  <Navigation />
   <Switch>
     <Route exact path='/' component={Home}/>
     <Route exact path='/players' component={Players}/>
