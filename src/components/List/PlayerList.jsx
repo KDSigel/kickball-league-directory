@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import AddPlayer from './AddPlayer'
 
 export default function PlayerList({players}) {
 
@@ -18,6 +19,8 @@ export default function PlayerList({players}) {
             }
             )}
             </ul>
+
+            <AddPlayer />
         </div>
     )
 }
