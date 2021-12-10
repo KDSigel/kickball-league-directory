@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { Link, useHistory, useParams } from 'react-router-dom'
+import { useHistory, useParams } from 'react-router-dom'
 import { deletePlayerById, getPlayerById } from '../../services/players'
 
 export default function PlayerDetail() {
