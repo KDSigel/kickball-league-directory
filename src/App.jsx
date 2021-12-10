@@ -4,7 +4,7 @@ import {
   Route,
 } from 'react-router-dom';
 import './App.css';
-import Navigation from './components/List/Navigation';
+import Navigation from './components/Navigation';
 import Home from './views/Home/Home';
 import PlayerDetail from './views/Players/PlayerDetail';
 import Players from './views/Players/Players';
