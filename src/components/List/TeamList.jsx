@@ -38,7 +38,6 @@ export default function TeamList({
                 state={state}
                 setState={setState}
                 />
-
         </div>
     )
 }
