@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it should check to make sure Players loads 1`] = `
+<div>
+  <div>
+    <div>
+      Playas
+      <ul>
+        <li>
+          <a
+            href="/player/24"
+          >
+            <div>
+              Chris Fontaine
+            </div>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/player/1"
+          >
+            <div>
+              John Appleseed
+            </div>
+          </a>
+        </li>
+      </ul>
+      <div>
+        <fieldset>
+          <legend>
+            Add New Player
+          </legend>
+          <form>
+            <label
+              for="playerName"
+            >
+              Player Name
+            </label>
+            <input
+              aria-label="player name"
+              id="playerName"
+              name="name"
+              type="text"
+              value=""
+            />
+            <label
+              for="position"
+            >
+              Player position
+            </label>
+            <input
+              aria-label="position"
+              id="position"
+              name="position"
+              type="text"
+              value=""
+            />
+            <label
+              for="teamId"
+            >
+              Team ID
+            </label>
+            <input
+              aria-label="team id number"
+              id="teamId"
+              name="teamId"
+              type="text"
+              value=""
+            />
+            <button
+              aria-label="Add New Player"
+              type="submit"
+            >
+              Add New Player
+            </button>
+          </form>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</div>
+`;

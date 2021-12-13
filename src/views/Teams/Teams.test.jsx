@@ -2,18 +2,19 @@ import { render, screen } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
 import Teams from './Teams';
 
-it.skip('it should check to make sure the loading happens and there are teams', async () => {
+it('it should check to make sure Teams loads', async () => {
 
-render (
+const {container} = render (
 <MemoryRouter>
     <Teams />
 </MemoryRouter>
 )
 
 screen.getByText('loading', {exact: false})
-const oneTeamName = await screen.findByText('Acme USA')
+const title = await screen.findByText('Kicking Ball Teams')
+expect(title).toBeInTheDocument()
 
-expect(oneTeamName).toBeInTheDocument()
+expect(container).toMatchSnapshot()
 
 }
 )
