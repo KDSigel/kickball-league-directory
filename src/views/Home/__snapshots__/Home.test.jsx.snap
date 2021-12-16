@@ -3,7 +3,7 @@
 exports[`should render a simple homepage 1`] = `
 <div>
   <div>
-    home page
+    EA 2022 Kickball Manager
   </div>
 </div>
 `;

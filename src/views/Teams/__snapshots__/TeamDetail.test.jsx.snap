@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it should check TeamDetail 1`] = `
+<div>
+  <div>
+    <h2>
+      Hot Stuff
+    </h2>
+    <p>
+      Kirkland
+      , 
+      Wa
+    </p>
+    <ul />
+    <button
+      type="button"
+    >
+      Edit team
+    </button>
+    <button
+      aria-label="delete team"
+      type="button"
+    >
+      Delete
+    </button>
+  </div>
+</div>
+`;
+
+exports[`it should check team details 1`] = `
+<div>
+  <div>
+    <h2>
+      Hot Stuff
+    </h2>
+    <p>
+      Kirkland
+      , 
+      Wa
+    </p>
+    <ul />
+    <button
+      type="button"
+    >
+      Edit team
+    </button>
+    <button
+      aria-label="delete team"
+      type="button"
+    >
+      Delete
+    </button>
+  </div>
+</div>
+`;

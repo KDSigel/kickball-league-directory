@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it should check to make sure Teams loads 1`] = `
+<div>
+  <div>
+    <div>
+      Kicking Ball Teams
+      <ul>
+        <li>
+          <a
+            href="/team/1"
+          >
+            <div>
+              Bridge City Sneakers
+            </div>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/team/21"
+          >
+            <div>
+              Red Deer Hoppers
+            </div>
+          </a>
+        </li>
+      </ul>
+      <div>
+        <fieldset>
+          <legend>
+            Add New Team
+          </legend>
+          <form>
+            <label
+              for="teamName"
+            >
+              Team Name
+            </label>
+            <input
+              aria-label="team name"
+              id="teamName"
+              name="name"
+              type="text"
+              value=""
+            />
+            <label
+              for="city"
+            >
+              City
+            </label>
+            <input
+              aria-label="city"
+              id="city"
+              name="city"
+              type="text"
+              value=""
+            />
+            <label
+              for="state"
+            >
+              State
+            </label>
+            <input
+              aria-label="state"
+              id="state"
+              name="state"
+              type="text"
+              value=""
+            />
+            <button
+              aria-label="Add New Team"
+              type="submit"
+            >
+              Add New Team
+            </button>
+          </form>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</div>
+`;
